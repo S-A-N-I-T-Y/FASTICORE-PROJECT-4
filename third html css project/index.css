@@ -14,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
+    opacity: 0.5;
     filter: blur(10px);
     -webkit-filter: blur(10px);
     transition: all 1000ms;
@@ -27,7 +28,7 @@ body {
 .showcase:hover .content {
     filter: blur(2px);
     -webkit-filter: blur(2px);
-}
+} 
 
 .content {
     position: absolute;

@@ -251,7 +251,7 @@ section.home {
 .contact-form {
     position: relative;
     background: #f9f9f9;
-    width: calc(100% - 400px);
+    width: calc(100% - 600px);
     padding: 60px 40px 20px;
 }
 
@@ -294,7 +294,7 @@ section.home {
 }
 
 .contact-form .row input[type='submit'] {
-  background-color: var(--secondary-color);
+  background-color: #F60F20;
   color: #fff;
   margin: 0;
   text-transform: uppercase;
@@ -302,10 +302,14 @@ section.home {
   font-weight: 300;
   border: 0;
   cursor: pointer;
+  padding: 15px 0;
+ 
 }
-
+.contact-form .row input[type='submit']:hover{
+  transform: scale(0.98);
+}
 .contact-info {
-  width: 350px;
+  width: 450px;
   background: #f9f9f9;
   padding: 60px 40px 20px;
 }
@@ -322,7 +326,7 @@ section.home {
 }
 
 .contact-info .info-box .details h4 {
-  color: var(--secondary-color);
+  color: #F60F20;
 }
 
 .contact-info .info-box .details p,
